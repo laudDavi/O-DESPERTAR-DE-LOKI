@@ -1,0 +1,71 @@
+html, body {
+ font-family: "Cinzel", serif;
+  background-color: white;
+    color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  font-size: 35px;
+  background-image: url("fundo.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  text-align: center;
+  font-weight: 500;
+  text-shadow: 10px 10px 5px black(0, 0, 0, 0.3);
+}
+
+footer{
+  font-family: "Montserrat", sans-serif;
+  text-decoration none;
+  font-size: 25px;
+  font-weight: 400;
+}
+
+footer a{
+  text-decoration: none;
+  color: white;
+}
+
+footer a:hover{
+  color: red;
+  font-weight: 800;
+}
+
+button{
+  font-family: "Anton SC", sans-serif;
+  background-color: white
+  border: 2px solid white;
+  color: black;
+  border-radius: 200px;
+  margin: 20px;
+  padding: 5px;
+}
+
+button:hover{
+  background-color: red;
+  border: 2px solid red;
+  box-shadow: 5px 4px 4px black(47,47,47);
+  font-weight: 800;
+  color: black;
+}
+
+main{
+  max-width 90%;
+  text-align: center;
+  flex: 1;
+}
+
+img{
+  max-width: 90%;
+}
+
+.passo{
+  display: none;
+}
+
+.passo.ativo{
+  display:block;
+}
